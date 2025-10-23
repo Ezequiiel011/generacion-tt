@@ -1,0 +1,67 @@
+INDEX.HTML:
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS: Star Wars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Star Wars CSS</h1>
+
+    <div class="Imperio">
+        <h2 id="DarthVader">Darth Vader</h2>
+        <p class="Soldados">Stormtroopers del Imperio</p>
+    </div>
+
+    <div class="Rebeldes">
+        <h2 id="Luke">Luke Skywalker</h2>
+        <p class="Apoyo">Aliados de la Resistencia</p>
+    </div>
+
+    <div class="Naves">X-Wing</div>
+    <div class="Droides"><img src="https://i.imgur.com/v7N2n1Q.png" width="100"></div>
+</body>
+</html>
+
+ESTILOS.CSS:
+
+.Imperio {
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+.Rebeldes {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+#DarthVader {
+    font-size: 24px;
+}
+
+#Luke {
+    font-style: italic;
+}
+
+.Soldados {
+    border: 2px dashed black;
+    letter-spacing: 3px;
+}
+
+.Apoyo {
+    text-align: center;
+}
+
+.Naves {
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.Droides img {
+    display: block;
+    margin: auto;
+}
